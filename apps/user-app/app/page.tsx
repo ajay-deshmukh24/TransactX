@@ -1,6 +1,9 @@
 import { Mybutton } from "@repo/ui/Mybutton";
+// import { useBalance } from "@repo/store/useBalance";
 
 export default function Home() {
+  // const value = useBalance();
+
   return (
     <>
       <div className="text-8xl bg-red-600 text-white font-semibold">
