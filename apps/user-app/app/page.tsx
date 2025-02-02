@@ -1,12 +1,4 @@
-"use client";
-
-// import { useBalance } from "@repo/store/useBalance";
-
-// import Mycomp from "../components/mycomp";
-
 export default function Home() {
-  // const value = useBalance();
-
   return (
     <>
       <div className="text-8xl bg-red-600 text-white font-semibold">
@@ -15,8 +7,6 @@ export default function Home() {
       <button className="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold text-lg rounded-xl shadow-lg hover:from-indigo-600 hover:to-blue-500 transition-all duration-300 transform hover:scale-105 focus:ring-4 focus:ring-blue-300">
         Click Me
       </button>
-      {/* <Mybutton></Mybutton> */}
-      {/* <Mycomp></Mycomp> */}
     </>
   );
 }
