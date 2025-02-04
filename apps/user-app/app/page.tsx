@@ -1,6 +1,17 @@
+// "use client";
+
+// import { Appbar } from "@repo/ui/appbar";
+
 export default function Home() {
+  // const userData = {
+  //   user: { name: "Ajay" },
+  //   onSignin: () => console.log("Signing in..."),
+  //   onSignout: () => console.log("Signing out..."),
+  // };
+
   return (
     <>
+      {/* <Appbar {...userData} /> */}
       <div className="text-8xl bg-red-600 text-white font-semibold">
         hi there
       </div>
