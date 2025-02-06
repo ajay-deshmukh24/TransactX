@@ -4,7 +4,7 @@
   "private": true,
   "exports": {
     "./button": "./src/button.tsx",
-    "./appbar": "./src/appbar.tsx",
+    "./Appbar": "./src/Appbar.tsx",
     "./Mybutton": "./src/Mybutton.tsx",
     "./card": "./src/card.tsx",
     "./code": "./src/code.tsx"
@@ -17,14 +17,15 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "@tailwindcss/postcss": "^4.0.3",
     "@turbo/gen": "^2.3.4",
     "@types/node": "^22.12.0",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
-    "typescript": "5.7.3"
-  },
-  "dependencies": {
+    "postcss": "^8.5.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.3",
+    "typescript": "5.7.3"
   }
 }
