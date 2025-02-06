@@ -1,7 +1,7 @@
 "use client";
 
 import { signIn, signOut, useSession } from "next-auth/react";
-import { Appbar } from "@repo/ui/Appbar";
+import { Appbar } from "@repo/ui/appbar";
 import { Mybutton } from "@repo/ui/Mybutton";
 
 export default function Home() {

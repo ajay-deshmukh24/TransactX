@@ -4,7 +4,7 @@
   "private": true,
   "exports": {
     "./button": "./src/button.tsx",
-    "./Appbar": "./src/Appbar.tsx",
+    "./appbar": "./src/appbar.tsx",
     "./Mybutton": "./src/Mybutton.tsx",
     "./card": "./src/card.tsx",
     "./code": "./src/code.tsx"
