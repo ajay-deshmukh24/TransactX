@@ -26,6 +26,7 @@ export const authOptions = {
 
       // TODO: User credentials type from next-aut
       async authorize(credentials: any) {
+        // console.log(process.env.JWT_SECRET);
         const hashedPassword = await bcrypt.hash(credentials.password, 10);
         const existingUser = await client.user.findFirst({
           where: {
@@ -72,7 +73,7 @@ export const authOptions = {
       },
     }),
   ],
-  secret: process.env.JWT_SECRET || "secret",
+  secret: process.env.NEXTAUTH_SECRET || "secret",
   callbacks: {
     // TODO: can u fix the type here? Using any is bad
     async session({ token, session }: any) {

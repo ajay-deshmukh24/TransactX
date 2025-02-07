@@ -18,5 +18,5 @@
       "persistent": true
     }
   },
-  "globalEnv": ["JWT_SECRET"]
+  "globalEnv": ["NEXTAUTH_SECRET"]
 }
